@@ -60,7 +60,7 @@ party_templates = [
   ("bandits_awaiting_ransom","Bandits Awaiting Ransom",icon_axeman|carries_goods(9)|pf_auto_remove_in_town|pf_quest_party,0,fac_neutral,bandit_personality,[(trp_bandit,24,58),(trp_kidnapped_girl,1,1,pmf_is_prisoner)]),
   ("kidnapped_girl","Kidnapped Girl",icon_woman|pf_quest_party,0,fac_neutral,merchant_personality,[(trp_kidnapped_girl,1,1)]),
 
-  ("village_farmers","Village Farmers",icon_peasant|pf_civilian,0,fac_innocents,bandit_personality,[(trp_farmer,500,1000),(trp_peasant_woman,300,800)]),
+  ("village_farmers","Village Farmers",icon_peasant|pf_civilian,0,fac_innocents,bandit_personality,[(trp_farmer,50,500),(trp_peasant_woman,30,300)]),
 
   ("spy_partners", "Unremarkable Travellers", icon_gray_knight|carries_goods(10)|pf_default_behavior|pf_quest_party,0,fac_neutral,merchant_personality,[(trp_spy_partner,1,1),(trp_caravan_guard,5,11)]),
   ("runaway_serfs","Runaway Serfs",icon_peasant|carries_goods(8)|pf_default_behavior|pf_quest_party,0,fac_neutral,merchant_personality,[(trp_farmer,6,7), (trp_peasant_woman,3,3)]),
@@ -154,5 +154,5 @@ party_templates = [
 
   ("leaded_looters","Band of robbers",icon_axeman|carries_goods(8)|pf_quest_party,0,fac_neutral,bandit_personality,[(trp_looter_leader,1,1),(trp_looter,3,3)]),
 
-  ("new_template","new_template",icon_peasant,0,fac_innocents,soldier_personality,[(trp_npc17_1,1,1),(trp_new_troop,2,9)]),
+  ("new_template","new_template",icon_peasant,0,fac_geoferry,soldier_personality,[(trp_npc17_1,1,1),(trp_new_troop,2,9)]),
   ]

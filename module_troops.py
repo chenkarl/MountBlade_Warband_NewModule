@@ -1809,10 +1809,10 @@ troops = [
 # Add Extra Quest NPCs below this point  
 
   ["new_troop","New_Troop","New_Troops",tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet,no_scene,reserved,fac_commoners,
-   [itm_hide_boots],
+   [itm_hide_boots,itm_new_mace],
    str_9|agi_9|level(4),wp(80),knows_common,mercenary_face_1, mercenary_face_2],
    
-  ["npc17_1","Geogiy","Geogiy", tf_hero|tf_unmoveable_in_party_window, scn_town_6_tavern|entry(1),reserved, fac_commoners,[itm_courtly_outfit,itm_hide_boots,itm_club, itm_saddle_horse],
+  ["npc17_1","Geogiy","Geogiy", tf_hero|tf_unmoveable_in_party_window, scn_town_6_tavern|entry(1),reserved, fac_geoferry,[itm_courtly_outfit,itm_hide_boots,itm_club, itm_saddle_horse,itm_new_mace],
    str_14|agi_17|int_6|cha_30|level(25),wpex(240,130,170,150,170,90),knows_tracking_10|knows_engineer_10|knows_first_aid_10|knows_surgery_10|knows_wound_treatment_10|knows_tactics_10|knows_trainer_10|knows_looting_10|
    knows_trade_2|knows_weapon_master_1|knows_ironflesh_1|knows_wound_treatment_1|knows_athletics_5|knows_first_aid_1|knows_leadership_1|knows_riding_4|knows_power_strike_7|knows_power_draw_3|knows_power_throw_3,
    0x000000019d004001570b893712c8d28d00000000001dc9990000000000000000],

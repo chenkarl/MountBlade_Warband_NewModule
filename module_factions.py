@@ -75,4 +75,5 @@ factions = [
 #INVASION MODE START
   ("ccoop_all_stars","All Stars", 0, 0.5,[], []),
 #INVASION MODE END
+  ("geoferry","Geoferry", 0, 0.5,[("player_faction",-1)], [], 0x888888),
 ]

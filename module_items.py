@@ -1276,5 +1276,5 @@ items = [
 #0,weight(2.25)|abundance(90)|weapon_length(63)|thrust_damage(1,pierce)|max_ammo(4),imodbits_missile],
 ["ccoop_new_items_end", "Items End", [("shield_round_a",0)], 0, 0, 1, 0, 0],
 #INVASION MODE END
-
+ ["new_mace","New Mace", [("mace_long_d",0)], itp_type_one_handed_wpn|itp_primary|itp_secondary|itp_wooden_parry|itp_unique, itc_scimitar, 3,weight(1.5)|spd_rtng(103)|weapon_length(90)|swing_damage(26,blunt)|thrust_damage(10,blunt),imodbit_balanced],
 ]
