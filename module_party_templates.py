@@ -153,4 +153,6 @@ party_templates = [
   ("bandit_lair_templates_end","{!}bandit_lair_templates_end",icon_axeman|carries_goods(2)|pf_is_static,0,fac_outlaws,bandit_personality,[(trp_sea_raider,15,50)]),
 
   ("leaded_looters","Band of robbers",icon_axeman|carries_goods(8)|pf_quest_party,0,fac_neutral,bandit_personality,[(trp_looter_leader,1,1),(trp_looter,3,3)]),
-]
+
+  ("new_template","new_template",icon_peasant,0,fac_innocents,soldier_personality,[(trp_npc17_1,1,1),(trp_new_troop,2,9)]),
+  ]
