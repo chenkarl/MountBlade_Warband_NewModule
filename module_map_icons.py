@@ -247,6 +247,8 @@ map_icons = [
   ("banner_134",0,"map_flag_f09", banner_scale,0),
   ("banner_135",0,"map_flag_f10", banner_scale,0),
   
+  ("new_icon",0,"city", 2,0),
+  
   ("map_flag_kingdom_a",0,"map_flag_kingdom_a", banner_scale,0),
   ("map_flag_kingdom_b",0,"map_flag_kingdom_b", banner_scale,0),
   ("map_flag_kingdom_c",0,"map_flag_kingdom_c", banner_scale,0),
