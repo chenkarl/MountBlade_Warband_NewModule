@@ -99,6 +99,8 @@ parties = [
   ("town_20","Durquba", icon_town_desert|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(90, -95.1),[], 270),
   ("town_21","Ahmerrad", icon_town_desert|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(130.5, -78.5),[], 330),
   ("town_22","Bariyye", icon_town_desert|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(165, -106.7),[], 225),
+  ## TestNewTown
+  ("town_23","ModTown",  icon_new_icon|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-1, -1),[], 45),
 
 #   Aztaq_Castle       
 #  Malabadi_Castle
