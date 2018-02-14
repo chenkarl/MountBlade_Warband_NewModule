@@ -937,6 +937,16 @@ game_menus = [
          (jump_to_menu,"mnu_start_character_1"),
         ]
        ),
+	   ####Test
+	   (
+	   "start_mod",[(eq,1,1),],"Quick Character (for mod testing)",
+	   [(troop_set_type,"trp_player",0),
+	   (assign,"$character_gender",tf_male),
+	   (troop_raise_attribute,"trp_player",ca_intelligence,-4),
+	   (change_screen_return,0),
+	   ]
+	   ),
+	   ####
       ("start_female",[],"Female",
        [
          (troop_set_type, "trp_player", 1),

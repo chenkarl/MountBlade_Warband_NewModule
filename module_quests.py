@@ -409,7 +409,12 @@ quests = [
 
   ("save_town_from_bandits", "Save Town from Bandits", 0,
   "{!}placeholder."
-  ),   
+  ),
+  
+   ("mod_trouble", "Speak with the troublemakers in Mod Town", qf_random_quest,
+  "Constible Haleck has asked you to deal with a bunch of young noble making trouble around Mod Town.\
+  How you want to tackle the problem is up to you;He ha promised a small purse if you succeed."
+  ),
   
  ("quests_end", "Quests End", 0, "{!}."),
 ]
